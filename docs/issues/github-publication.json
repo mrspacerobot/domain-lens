@@ -1,0 +1,171 @@
+{
+  "repository": "mrspacerobot/domain-lens",
+  "complete": true,
+  "issues": {
+    "DL-01": {
+      "number": 1,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/1",
+      "title": "DL-01: Bootstrap the Rust workspace and repeatable Windows checks"
+    },
+    "DL-02": {
+      "number": 2,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/2",
+      "title": "DL-02: Define versioned review, source-fact, and flow contracts"
+    },
+    "DL-03": {
+      "number": 3,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/3",
+      "title": "DL-03: Validate the inline editor library with a disposable demo"
+    },
+    "DL-04": {
+      "number": 4,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/4",
+      "title": "DL-04: Implement source-to-screen mapping for inline change annotations"
+    },
+    "DL-05": {
+      "number": 5,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/5",
+      "title": "DL-05: Add standard editing controls and syntax highlighting"
+    },
+    "DL-06": {
+      "number": 6,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/6",
+      "title": "DL-06: Add optional Vim navigation and editing"
+    },
+    "DL-07": {
+      "number": 7,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/7",
+      "title": "DL-07: Preserve encoding and newline conventions when loading and saving"
+    },
+    "DL-08": {
+      "number": 8,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/8",
+      "title": "DL-08: Guard unsaved edits and provide external-change recovery"
+    },
+    "DL-09": {
+      "number": 9,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/9",
+      "title": "DL-09: Resolve repository identity and a fixed review baseline"
+    },
+    "DL-10": {
+      "number": 10,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/10",
+      "title": "DL-10: Build the complete branch change inventory"
+    },
+    "DL-11": {
+      "number": 11,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/11",
+      "title": "DL-11: Load baseline, current, staged, and deleted-file representations"
+    },
+    "DL-12": {
+      "number": 12,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/12",
+      "title": "DL-12: Build the flow viewer and source navigation"
+    },
+    "DL-13": {
+      "number": 13,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/13",
+      "title": "DL-13: Connect changed-file navigation and staged detail to the viewer"
+    },
+    "DL-14": {
+      "number": 14,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/14",
+      "title": "DL-14: Handle explicit branch and worktree switches safely"
+    },
+    "DL-15": {
+      "number": 15,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/15",
+      "title": "DL-15: Capture consistent generation snapshots"
+    },
+    "DL-16": {
+      "number": 16,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/16",
+      "title": "DL-16: Implement the Rust analyzer runner and coverage diagnostics"
+    },
+    "DL-17": {
+      "number": 17,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/17",
+      "title": "DL-17: Extract Rust declarations and candidate call sites"
+    },
+    "DL-18": {
+      "number": 18,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/18",
+      "title": "DL-18: Extract Java declarations and candidate call sites"
+    },
+    "DL-19": {
+      "number": 19,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/19",
+      "title": "DL-19: Expand analysis into relevant unchanged source"
+    },
+    "DL-20": {
+      "number": 20,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/20",
+      "title": "DL-20: Reuse unchanged analysis facts with correct invalidation"
+    },
+    "DL-21": {
+      "number": 21,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/21",
+      "title": "DL-21: Benchmark Rust/Java analysis and record performance budgets"
+    },
+    "DL-22": {
+      "number": 22,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/22",
+      "title": "DL-22: Validate flow documents and adapt the original fixture"
+    },
+    "DL-23": {
+      "number": 23,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/23",
+      "title": "DL-23: Publish cached flow revisions atomically with concurrency checks"
+    },
+    "DL-24": {
+      "number": 24,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/24",
+      "title": "DL-24: Expose context, analyze, and flow-import CLI commands"
+    },
+    "DL-25": {
+      "number": 25,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/25",
+      "title": "DL-25: Write and export the shared flow-generation skill"
+    },
+    "DL-26": {
+      "number": 26,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/26",
+      "title": "DL-26: Verify the complete workflow in Codex CLI"
+    },
+    "DL-27": {
+      "number": 27,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/27",
+      "title": "DL-27: Verify the complete workflow in Claude Code"
+    },
+    "DL-28": {
+      "number": 28,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/28",
+      "title": "DL-28: Refresh disk, Git, and accepted flows without losing buffers"
+    },
+    "DL-29": {
+      "number": 29,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/29",
+      "title": "DL-29: Bound cached flows and analysis artifacts and add manual cleanup"
+    },
+    "DL-30": {
+      "number": 30,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/30",
+      "title": "DL-30: Clean up closed reviews after confirmed merges"
+    },
+    "DL-31": {
+      "number": 31,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/31",
+      "title": "DL-31: Validate Windows Terminal behavior and failure recovery"
+    },
+    "DL-32": {
+      "number": 32,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/32",
+      "title": "DL-32: Validate the complete workflow inside a Herdr pane"
+    },
+    "DL-33": {
+      "number": 33,
+      "url": "https://github.com/mrspacerobot/domain-lens/issues/33",
+      "title": "DL-33: Package the first Windows build and document the complete demo"
+    }
+  }
+}

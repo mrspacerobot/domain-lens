@@ -1,5 +1,7 @@
 # Domain Lens: project handoff
 
+This is the earlier exploration snapshot. The [product spec](SPEC.md) records the subsequent design interview and proposed integration. In particular, review now calls for one editable code view with inline change highlights; the separate diff mode described below is historical.
+
 ## Goal
 
 Help a developer understand the architecture and data flow of a task while reviewing code produced by an agent. Show components, actual input/output types or values, source code, and Git changes together without requiring a commit. Work across projects and agent harnesses, including Claude and Codex.
