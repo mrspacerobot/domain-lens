@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "description": "Fictional ski weather flow; a simple illustrative fixture.",
+  "nodes": [
+    {
+      "id": "browser",
+      "label": "Browser",
+      "source": null
+    },
+    {
+      "id": "handler",
+      "label": "RequestHandler",
+      "source": {
+        "path": "examples/ski_flow.py",
+        "symbol": "RequestHandler"
+      }
+    },
+    {
+      "id": "service",
+      "label": "SnowService",
+      "source": {
+        "path": "examples/ski_flow.py",
+        "symbol": "SnowService"
+      }
+    },
+    {
+      "id": "gateway",
+      "label": "WeatherGateway",
+      "source": {
+        "path": "examples/ski_flow.py",
+        "symbol": "WeatherGateway"
+      }
+    },
+    {
+      "id": "api",
+      "label": "MockWeatherAPI",
+      "source": {
+        "path": "examples/ski_flow.py",
+        "symbol": "MockWeatherAPI"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "browser",
+      "to": "handler",
+      "data": "resort: str",
+      "kind": "request"
+    },
+    {
+      "from": "handler",
+      "to": "service",
+      "data": "resort: str",
+      "kind": "call"
+    },
+    {
+      "from": "service",
+      "to": "gateway",
+      "data": "resort: str",
+      "kind": "call"
+    },
+    {
+      "from": "gateway",
+      "to": "api",
+      "data": "resort: str",
+      "kind": "call"
+    },
+    {
+      "from": "api",
+      "to": "gateway",
+      "data": "snowfall_cm: int",
+      "kind": "return"
+    },
+    {
+      "from": "gateway",
+      "to": "service",
+      "data": "snowfall_cm: int",
+      "kind": "return"
+    },
+    {
+      "from": "service",
+      "to": "handler",
+      "data": "WeatherReport",
+      "kind": "return"
+    },
+    {
+      "from": "handler",
+      "to": "browser",
+      "data": "formatted report: str",
+      "kind": "return"
+    }
+  ]
+}
