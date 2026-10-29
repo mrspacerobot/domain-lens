@@ -1,6 +1,6 @@
 # Domain Lens - research and prototype plan
 
-Status: exploration, 2026-10-29. No implementation decision has been made.
+Status: historical exploration, 2026-10-29. The [product spec](SPEC.md) and [implementation roadmap](PLANS.md) supersede the behavior and sequencing proposals below. Library notes remain research candidates; verify compatibility during implementation.
 
 ## Purpose
 

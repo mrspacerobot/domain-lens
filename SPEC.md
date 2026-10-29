@@ -283,4 +283,4 @@ References:
 - [Git diff: commit, index and working-tree comparisons](https://git-scm.com/docs/git-diff).
 - [Git status: machine-readable status and untracked paths](https://git-scm.com/docs/git-status).
 - [Git rev-parse: repository and worktree discovery](https://git-scm.com/docs/git-rev-parse).
-- [Original handoff](HANDOFF.md), [research notes](RESEARCH.md), and [prototype snapshots](prototypes/).
+- [Prototype references](prototypes/README.md) and [historical research notes](RESEARCH.md).

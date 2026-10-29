@@ -5,11 +5,10 @@ An early exploration of an agent-independent terminal tool for understanding a s
 - [Product spec](SPEC.md): interview-confirmed requirements and a proposed agent/worktree integration.
 - [Implementation roadmap](PLANS.md): milestone goals and sequencing. [GitHub issues](https://github.com/mrspacerobot/domain-lens/issues) track the work.
 - [Codex workflow](docs/CODEX_WORKFLOW.md): researched guidance for implementing and reviewing one issue at a time.
-- [Handoff](HANDOFF.md): earlier exploration, prototype limitations and original next steps.
 - [Research](RESEARCH.md): Rust libraries, Git, temporary caches and agent integration.
 - [Example flow](example-flow.json): a fictional ski weather example.
 - [Example code](examples/ski_flow.py): the fictional classes used by the prototype.
-- [Prototype snapshots](prototypes/): Python Textual editor, Windows terminal viewer and color previews. Retained as references until the Rust replacements are validated.
+- [Prototype references](prototypes/README.md): Python Textual editor, Windows terminal viewer and color previews. Retained as references until the Rust replacements are validated.
 
 ## Try the prototype
 
