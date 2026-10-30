@@ -1,0 +1,13 @@
+[workspace]
+members = ["."]
+resolver = "3"
+
+[package]
+name = "domain-lens"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+publish = false
+description = "A terminal tool for understanding domain flows and reviewing source changes"
+
+[dependencies]
